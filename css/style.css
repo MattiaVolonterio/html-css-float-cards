@@ -2,6 +2,7 @@
   --title-color: #e5316f;
   --card-bg-color: #100e17;
   --section-margin: 2rem 0;
+  --text-padding: 15px 0;
 }
 
 /* ## RESET */
@@ -47,7 +48,7 @@ h1 {
   text-align: center;
 
   margin: var(--section-margin);
-  padding: 20px 0;
+  padding: var(--text-padding);
   /* debug */
   background-color: aquamarine;
   min-height: 50px;
@@ -56,6 +57,9 @@ h1 {
 /* PARAGRAPH */
 
 p {
+  text-align: center;
+
+  padding: var(--text-padding);
   margin: var(--section-margin);
   /* debug */
   background-color: coral;
