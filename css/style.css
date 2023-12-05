@@ -4,6 +4,7 @@
   --section-margin: 1.5rem 0;
   --text-padding: 15px 0;
   --card-height: 100px;
+  --card-border-radius: 5px;
 }
 
 /* ## RESET */
@@ -68,6 +69,8 @@ a {
 .container > p {
   text-align: center;
 
+  line-height: 1.8rem;
+
   font-size: 1.1rem;
   font-weight: 300;
 
@@ -85,12 +88,17 @@ a {
   height: var(--card-height);
   background-color: var(--card-bg-color);
 
+  border-radius: var(--card-border-radius);
+
   color: white;
+
+  box-shadow: -13px 13px 20px 3px gray;
 }
 
 .card-img,
 .card-img > img {
   height: 100%;
+  border-radius: var(--card-border-radius);
 }
 
 .card-img,
