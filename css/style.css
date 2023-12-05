@@ -1,6 +1,7 @@
 :root {
   --title-color: #e5316f;
   --card-bg-color: #100e17;
+  --section-margin: 2rem 0;
 }
 
 /* ## RESET */
@@ -22,13 +23,45 @@ body {
 /* ## UTILS */
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   padding: 1 rem;
+
+  /* debug */
+  background-color: lightgray;
+  min-height: 300px;
 }
 
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
+}
+
+/* ## MAIN */
+
+/* TITLE */
+
+h1 {
+  margin: var(--section-margin);
+  /* debug */
+  background-color: aquamarine;
+  min-height: 50px;
+}
+
+/* PARAGRAPH */
+
+p {
+  margin: var(--section-margin);
+  /* debug */
+  background-color: coral;
+  min-height: 50px;
+}
+
+/* CARD SECTION */
+
+.row {
+  /* debug */
+  background-color: darkgreen;
+  min-height: 200px;
 }
