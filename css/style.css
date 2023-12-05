@@ -39,6 +39,18 @@ body {
   clear: both;
 }
 
+.col-1-3 {
+  width: calc(100% / 3);
+
+  float: left;
+
+  padding: 1rem;
+
+  /* debug */
+  background-color: white;
+  border: 1px dashed blue;
+}
+
 /* ## MAIN */
 
 /* TITLE */
@@ -69,7 +81,15 @@ p {
 /* CARD SECTION */
 
 .row {
+  margin: 0 -1rem;
   /* debug */
   background-color: darkgreen;
   min-height: 200px;
+}
+
+.card {
+  background-color: var(--card-bg-color);
+
+  /* debug */
+  min-height: 100px;
 }
