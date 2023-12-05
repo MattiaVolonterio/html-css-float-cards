@@ -34,10 +34,6 @@ a {
   width: 70%;
   margin: 0 auto;
   padding: 1 rem;
-
-  /* debug */
-  background-color: lightgray;
-  min-height: 300px;
 }
 
 .clearfix::after {
@@ -52,10 +48,6 @@ a {
   float: left;
 
   padding: 1rem;
-
-  /* debug */
-  background-color: white;
-  border: 1px dashed blue;
 }
 
 /* ## MAIN */
@@ -68,9 +60,6 @@ h1 {
 
   margin: var(--section-margin);
   padding: var(--text-padding);
-  /* debug */
-  background-color: aquamarine;
-  min-height: 50px;
 }
 
 /* PARAGRAPH */
@@ -80,18 +69,12 @@ p {
 
   padding: var(--text-padding);
   margin: var(--section-margin);
-  /* debug */
-  background-color: coral;
-  min-height: 50px;
 }
 
 /* CARD SECTION */
 
 .row {
   margin: 0 -1rem;
-  /* debug */
-  background-color: darkgreen;
-  min-height: 200px;
 }
 
 .card {
@@ -118,6 +101,7 @@ p {
   justify-content: space-evenly;
 
   margin-left: 20px;
+  padding: 10px 0;
 }
 
 .card-content h2,
