@@ -118,10 +118,10 @@ a {
 
   transition-timing-function: ease-in-out;
   transition-delay: 1s;
-  transition: height 3s, transform 3s;
+  transition: height 0.7s, transform 0.7s;
 }
 
-.card:hover {
+.card-hover:hover .card {
   transform: rotateY(360deg);
   height: calc(var(--card-height) * 1.5);
 }
