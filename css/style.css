@@ -43,7 +43,11 @@ body {
 /* TITLE */
 
 h1 {
+  color: var(--title-color);
+  text-align: center;
+
   margin: var(--section-margin);
+  padding: 20px 0;
   /* debug */
   background-color: aquamarine;
   min-height: 50px;
