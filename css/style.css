@@ -171,6 +171,7 @@ a {
 .card-content h3 {
   font-size: 1rem;
   margin: 5px 0;
+  padding: 1px 0;
 }
 
 .card-content h2 {
