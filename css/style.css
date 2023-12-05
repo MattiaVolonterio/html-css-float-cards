@@ -1,7 +1,7 @@
 :root {
   --title-color: #e5316f;
   --card-bg-color: #100e17;
-  --section-margin: 2rem 0;
+  --section-margin: 1.5rem 0;
   --text-padding: 15px 0;
   --card-height: 100px;
 }
@@ -20,7 +20,7 @@ img {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -54,9 +54,10 @@ a {
 
 /* TITLE */
 
-h1 {
+.container > h1 {
   color: var(--title-color);
   text-align: center;
+  font-weight: 700;
 
   margin: var(--section-margin);
   padding: var(--text-padding);
@@ -64,8 +65,11 @@ h1 {
 
 /* PARAGRAPH */
 
-p {
+.container > p {
   text-align: center;
+
+  font-size: 1.1rem;
+  font-weight: 300;
 
   padding: var(--text-padding);
   margin: var(--section-margin);
@@ -109,6 +113,10 @@ p {
   font-size: 1rem;
 }
 
+.card-content h2 {
+  font-weight: 700;
+}
+
 .card-content h3 {
-  font-weight: 400;
+  font-weight: 300;
 }
